@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--icones-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/tema.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="galleria-1.5.7.min.js"></script>
+        <style>
+            .galleria {
+                max-width: full;
+                height: 600px;
+                background:#000;
+
+
+            }
+            .galleria-container{
+                background: #000000;
+
+            }
+
+        </style>
+    </head>
+
+
+    <body >
+
+
+
+        <header>
+
+            <!-- Barra inicial Superior-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index5.html">
+                <img src="img/icon.png" width="30" height="30" class="botao-home" alt="">
+                Carlos Gruthner
+                </a>
+
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Trabalhos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#2018">Parede</a>
+                            <a class="dropdown-item" href="#2015">Papel</a>
+                            <a class="dropdown-item" href="#2016">Aerografia</a>
+                            <a class="dropdown-item" href="#2016">Digital</a>
+                        </div>
+                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Gaelria
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#2018">Anime</a>
+                            <a class="dropdown-item" href="#2015">Realista</a>
+                            <a class="dropdown-item" href="#2016">Colorido</a>
+                        </div>
+                    </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos</a>
+                    </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+
+                </ul>
+                </div>
+                </nav>
+            </nav>
+
+
+        </header>
+        <section>
+
+
+            <!-- imagens carregadas na galeria -->
+            <center>
+            <div class="galleria">
+                <img src="img/pic1.jpg" data-title="Negative " data-description="Trabalho feito no efeito negativo">
+                <img src="img/pic2.jpg">
+                <img src="img/pic3.jpg">
+                <img src="img/pic4.jpg">
+                <img src="img/pic5.jpg">
+
+            </div>
+            </center>
+
+
+            <!-- Este script fica no final dos arquivos de imagem-->
+            <script>
+                (function () {
+                    Galleria.loadTheme('themes/classic/galleria.classic.min.js');
+                    Galleria.configure({
+                        // Tipos de transição: fade, flash, pulse, slide e fadeslide.
+                        transition: 'fadeslide',
+                        // Se a imagem for maior que a galeria ela será cortada.
+                        imageCrop: false,
+                        // Proxima imagem automaticamente.
+                        autoplay: 5000,
+                        lightbox: true,
+                        responsive: true
+                    });
+                    Galleria.run('.galleria');
+                }());
+            </script>
+        </section>
+
+
+        <aside>
+
+
+        </aside>
+        <footer>
+            <div class="icone">
+                <!--  icones -->
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+                <!--rodapé-->
+                <div class="rodape">
+                <h6>@ Desenvolvimento sendo colocado em prática.<br>Carlos Gruthner </h6>
+
+            </div>
+        </footer>
+    </body>
+</html>
