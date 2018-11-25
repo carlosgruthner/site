@@ -1,18 +1,12 @@
-
-
-
 /*botão Home*/
 .botao-home{
     text-align: left;
-    border-radius: 50%;
-    
+    border-radius: 50%;    
 }
 
 .sobre {
     background-color: slategray;
 }
-
-
 
 /*imagem Sobre*/
 .sobre img{
@@ -37,25 +31,44 @@
     margin-left: 20px;
 }
 
-
+.navbarnavbar-lightbg-light img{
+    border-radius: 10%;
+}
+.navbar {
+    background-color: black;  
+}
+.heading{
+    color: aliceblue;
 }
 
-.navbarnavbar-lightbg-light img{
-    border-radius: 10%
+
+
+.rounded-circle{
+    border-radius: 50%;
+}
+body{
+    background-color: #151515;
+}
+
+section{
+    background-color: #151515;
 }
 
 aside{
-    text-align: center
+    text-align: center;
 }
 
 footer{
-    text-align:center
+    text-align:center;  
+    padding: 40px;  
+    background-color: black;
 }
 
-    
+
+  
 /* Style all font awesome icons */
 .icone {
-    padding: 80px;
+    padding: 20px;
     font-size: 30px;
     /*width: 50px;*/ /*deixa os icones no canto esquerdo, um abaixo do outro*/
     text-align: center;
@@ -89,4 +102,5 @@ footer{
 
 .rodape{
     text-align: center;
+    
 }
